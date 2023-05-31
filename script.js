@@ -6,9 +6,9 @@ let ImpNumber = document.getElementById("ImpNumber")
 
 ImpNumber.addEventListener("input", () => {
     
-    if (ImpNumber.value>15) {
+    if (ImpNumber.value>20) {
         console.log(ImpNumber.value)
-        ImpNumber.value=15
+        ImpNumber.value=20
         return
     }
 
