@@ -1,0 +1,12 @@
+.counter{
+    border: 1px solid gray;
+    padding: 1px;
+    width: 60px;
+}
+
+.elements{
+    border: 0 solid transparent;
+    width: 15px;
+    outline: transparent;
+    background-color: white;
+}
