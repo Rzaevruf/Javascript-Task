@@ -3,10 +3,8 @@ let BtnPlus = document.getElementById("BtnPlus")
 
 let ImpNumber = document.getElementById("ImpNumber")
 
-ImpNumber.value = 1
 
 ImpNumber.addEventListener("input", () => {
-    typeof ImpNumber.value==='number'
     
     if (ImpNumber.value>15) {
         console.log(ImpNumber.value)
